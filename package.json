@@ -1,0 +1,21 @@
+{
+  "name": "theweather-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "npm": "^6.1.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-geosuggest": "^2.7.0",
+    "react-scripts": "1.1.4",
+    "react-skycons": "^0.7.0"
+  },
+  "proxy": "https://still-lowlands-22647.herokuapp.com/",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
